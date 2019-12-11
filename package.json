@@ -1,0 +1,28 @@
+{
+  "name": "express-one-hostname",
+  "version": "1.0.0",
+  "description": "Ensure your site is only served from the correct hostname",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "express",
+    "hostname",
+    "hosting",
+    "cloud hosting"
+  ],
+  "license": "MIT",
+  "author": "Rob Styles <rob@styles.to>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mmmmmrob/express-one-hostname.git"
+  },
+  "devDependencies": {
+    "jest": "^25.0.0"
+  },
+  "engines": {
+    "node": ">= 8.0"
+  },
+  "main": "./lib/index.js",
+  "dependencies": {}
+}
